@@ -5,4 +5,4 @@ jobs:
   run-shell-commands:
   steps:
     - name: Echo a String
-    run: echo "Hola este es el primer GitHub Accion"
+    run: echo "Hola este es el primer GitHub Accion que no funciona"
