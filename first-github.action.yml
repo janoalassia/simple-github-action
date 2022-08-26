@@ -1,0 +1,8 @@
+name: Run Shell Commands
+on: [push]
+
+jobs:
+  run-shell-commands:
+  steps:
+    - name: Echo a String
+    run: echo "Hola este es el primer GitHub Accion"
