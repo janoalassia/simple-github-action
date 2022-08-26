@@ -1,8 +1,10 @@
 name: Run Shell Commands
+
 on: [push]
 
 jobs:
-  run-shell-commands:
+  run-shell-command:
+  run-on: ubuntu-latest
   steps:
     - name: Echo a String
     run: echo "Hola este es el primer GitHub Accion que no funciona"
