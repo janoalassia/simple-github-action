@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   run-shell-command:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Echo a String
-      run: echo "Hola este es el primer GitHub Accion que no funciona"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "Hello Security Gurus!! This is our first GitHub Actions Workflow file"
