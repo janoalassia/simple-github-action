@@ -6,4 +6,4 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: Echo a String
-    run: echo "Hola este es el primer GitHub Accion que no funciona"
+      run: echo "Hola este es el primer GitHub Accion que no funciona"
